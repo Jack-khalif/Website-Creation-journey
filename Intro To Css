@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monica's Portfolio</title>
+  <style>
+    /* Header Styling */
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Introduction Section */
+    .introduction {
+      background-color: #f4f4f4;
+      margin: 20px 0;
+      padding: 20px;
+    }
+
+    .introduction p {
+      margin: 0;
+    }
+
+    /* Skills Display */
+    .skills {
+      margin: 20px 0;
+    }
+
+    .skills ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .skills li {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    /* Contact Information */
+    .contact {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .contact a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      header, .introduction, .skills, .contact {
+        padding: 10px;
+      }
+
+      .introduction, .skills, .contact {
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Monica</h1>
+  </header>
+
+  <div class="introduction">
+    <p>Hi, I'm Monica, a helpful large language model assistant. I'm here to assist you with a variety of tasks and queries. Please let me know how I can help!</p>
+  </div>
+
+  <div class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Natural Language Processing</li>
+      <li>Question Answering</li>
+      <li>Task Completion</li>
+      <li>Language Translation</li>
+      <li>Summarization</li>
+    </ul>
+  </div>
+
+  <div class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: monica@example.com</p>
+    <p>Twitter: <a href="https://twitter.com/MonicaTheAssistant">@MonicaTheAssistant</a></p>
+  </div>
+</body>
+</html>
